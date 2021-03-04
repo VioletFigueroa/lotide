@@ -3,11 +3,11 @@ const assertEqual = (actual, expected) =>
     ? console.log(`✅✅✅ Assertion Passed: ${actual} ===  ${expected}`)
     : console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 
-const findKeyByValue = function(object,value){
-  for (key in object)if(object[key] === value) return key;
+const findKeyByValue = function(object,value) {
+  for (let key in object) if (object[key] === value) return key;
   return undefined;
-}
-const bestTVShowsByGenre = { 
+};
+const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"

@@ -10,14 +10,3 @@ const countLetters = function(sentence) {
   console.log(results);
   return results;
 };
-const assertObjectEqual = function(actual, expected) {
-  let assert = true;
-  if((Object.keys(actual)).length !== (Object.keys(expected)).length) assert = false;
-  for (const akey in actual) if (actual[akey] !== expected[akey]) assert = false;
-  assert
-    ? console.log(`✅✅✅ Assertion Passed: These Objects are equal!`)
-    : console.log(`🛑🛑🛑 Assertion Failed: These Objects are not equal!`);
-};
-const testExpected = { l: 1, i: 2, g: 1, h: 4, t: 2, o: 2, u: 2, s: 2, e: 3, n: 1 };
-let testActual = countLetters("lighthouse in the house");
-assertObjectEqual(testActual, testExpected);
