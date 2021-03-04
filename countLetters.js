@@ -12,6 +12,7 @@ const countLetters = function(sentence) {
 };
 const assertObjectEqual = function(actual, expected) {
   let assert = true;
+  if((Object.keys(actual)).length !== (Object.keys(expected)).length) assert = false;
   for (const akey in actual) if (actual[akey] !== expected[akey]) assert = false;
   assert
     ? console.log(`✅✅✅ Assertion Passed: These Objects are equal!`)
