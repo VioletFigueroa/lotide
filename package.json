@@ -1,10 +1,64 @@
 {
-  "name": @violet-figueroa/lotide,
+  "name": "@violet-figueroa/lotide",
   "version": "1.0.0",
   "description": "A mini clone of the [Lodash](https://lodash.com) library.",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
+  },
+  "dependencies": {
+    "ansi-regex": "^3.0.0",
+    "anymatch": "^3.1.1",
+    "ansi-styles": "^4.3.0",
+    "argparse": "^2.0.1",
+    "balanced-match": "^1.0.0",
+    "binary-extensions": "^2.2.0",
+    "brace-expansion": "^1.1.11",
+    "braces": "^3.0.2",
+    "chai": "^4.3.3",
+    "chalk": "^4.1.0",
+    "cliui": "^7.0.4",
+    "concat-map": "^0.0.1",
+    "color-name": "^1.1.4",
+    "color-convert": "^2.0.1",
+    "decamelize": "^4.0.0",
+    "camelcase": "^6.2.0",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.1.1",
+    "fill-range": "^7.0.1",
+    "get-caller-file": "^2.0.5",
+    "glob-parent": "^5.1.2",
+    "flat": "^5.0.2",
+    "fs.realpath": "^1.0.0",
+    "has-flag": "^4.0.0",
+    "is-binary-path": "^2.1.0",
+    "inherits": "^2.0.4",
+    "is-extglob": "^2.1.1",
+    "is-fullwidth-code-point": "^2.0.0",
+    "is-glob": "^4.0.1",
+    "is-plain-obj": "^2.1.0",
+    "is-number": "^7.0.0",
+    "inflight": "^1.0.6",
+    "isexe": "^2.0.0",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "path-exists": "^4.0.0",
+    "path-is-absolute": "^1.0.1",
+    "randombytes": "^2.1.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.2.2",
+    "readdirp": "^3.5.0",
+    "safe-buffer": "^5.2.1",
+    "strip-ansi": "^4.0.0",
+    "string-width": "^2.1.1",
+    "require-directory": "^2.1.1",
+    "type-detect": "^4.0.8",
+    "to-regex-range": "^5.0.1",
+    "wrap-ansi": "^7.0.0",
+    "wrappy": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.1"
   },
   "scripts": {
     "test": "mocha"
@@ -13,14 +67,15 @@
     "type": "git",
     "url": "git+https://github.com/VioletFigueroa/lotide.git"
   },
+  "keywords": [
+    "lighthouse",
+    "labs",
+    "lotide"
+  ],
   "author": "Violet Figueroa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VioletFigueroa/lotide/issues"
   },
-  "homepage": "https://github.com/VioletFigueroa/lotide#readme",
-  "dependencies": {
-    "chai": "^4.3.3",
-    "mocha": "^8.3.1"
-  }
+  "homepage": "https://github.com/VioletFigueroa/lotide#readme"
 }
