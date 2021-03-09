@@ -5,11 +5,11 @@ describe("#tail", () => {
     assert.deepEqual(tail([1, 2, 3]),[2, 3]);
   });
   it("returns ['5'] for ['5']", () => {
-    assert.deepEqual(tail(['5']), ['5']); 
+    assert.deepEqual(tail(['5']), ['5']);
   });
   it("does not change the original array", () => {
-    const input = [1,2,3]
+    const input = [1,2,3];
     const output = tail(input);
-    assert.deepEqual(input, [1,2,3]); 
+    assert.deepEqual(input, [1,2,3]);
   });
 });
